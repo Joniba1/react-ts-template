@@ -3,7 +3,7 @@ import { useEffect, useState } from 'react'
 function supportsLocalStorage() {
 	try {
 		return 'localStorage' in window && window.localStorage !== null
-	} catch (e) {
+	} catch {
 		return false
 	}
 }
