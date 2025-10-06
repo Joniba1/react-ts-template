@@ -1,24 +1,9 @@
 {
 	"useTabs": true,
-	"tabWidth": 8,
+	"tabWidth": 4,
 	"semi": false,
 	"singleQuote": true,
 	"trailingComma": "es5",
 	"arrowParens": "always",
-	"printWidth": 120,
-
-	"importOrder": [
-		"^react",
-		"^\\w",
-		"/types/",
-		"/hooks/",
-		"/store/",
-		"/views/",
-		"/components/",
-		"/assets/",
-		"^./",
-		"css$"
-	],
-	"importOrderSeparation": true,
-	"importOrderSortSpecifiers": true
+	"printWidth": 120
 }

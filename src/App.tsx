@@ -1,8 +1,9 @@
-import Layout from '@/pages/Layout'
 import { QueryClient, QueryClientProvider } from '@tanstack/react-query'
 import { Route, Routes } from 'react-router-dom'
-import ThemeProvider from './contexts/ThemeProvider'
-import Home from './pages/Home'
+
+import ThemeProvider from '@/contexts/ThemeProvider'
+import Home from '@/pages/Home'
+import Layout from '@/pages/Layout'
 
 export const queryClient = new QueryClient({
 	defaultOptions: {

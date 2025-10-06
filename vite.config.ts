@@ -6,7 +6,6 @@ import { z } from 'zod'
 import { resolve } from 'path'
 
 const envSchema = z.object({
-	VITE_API_URL: z.string(),
 	VITE_PORT: z.string().optional(), //* will parse to number later
 })
 
